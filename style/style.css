@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=DM+Sans&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    padding: 15px 80px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+}
+
+li {
+    list-style: none;
+}
+
+.hero-section {
+    padding: 100px 80px;
+    background-image: url("/img/hero-background.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #09007F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+span {
+    color: #FF4D00;
+    font-family: 'Caveat', cursive;
+    font-size: 73px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+}
